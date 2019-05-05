@@ -1,0 +1,38 @@
+.carousel-item{
+    height:90vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-item:nth-child(1){
+    background-image: url(../images/insidecar.jpg);
+}
+
+.carousel-item:nth-child(2){
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.4) 0%, rgba(0,0,0,.4) 100%),url(../images/accident.jpg);
+}
+
+.carousel-item:nth-child(3){
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.4) 0%, rgba(0,0,0,.4) 100%), url(../images/data.jpg);
+}
+
+.cover_title {
+    font-weight: 700;
+    font-size: 5rem;
+}
+.cover_text{
+    font-weight: 700;
+    font-size: 2rem;
+    
+}
+.btn.btn-warning{
+    border-radius: 100px;
+    background-color: #ff9e1e !important;
+    border: none;
+}
+
+.story{
+    padding : 30px;
+    margin : 20px 100px 20px 30px;
+}
